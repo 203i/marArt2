@@ -1,0 +1,46 @@
+body{
+	
+	background-image:url("zoe.png");
+	background-size:cover;	
+	text-align:center;
+	font-family:arial;
+	
+}
+
+#bgchanger{
+	
+	
+	
+}
+
+#bar{
+	
+	position:absolute;
+	
+	
+}
+
+#bar:active{
+	
+	position:absolute;
+	color:yellow;
+	min-width:100px;
+	height:1000px;
+	background-color:purple;
+	
+}
+
+.img{
+
+	position:absolute;
+	width :200px;
+	height:200px;
+	
+	float:left;
+}
+.img:hover{
+	
+	transition:  .6s ;
+	transform: scale(1.2);
+	
+}
