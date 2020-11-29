@@ -1,32 +1,9 @@
 body{
 	
-	background-image:url("zoe.png");
+	background-image:url("zoe1.jpg");
 	background-size:cover;	
-	text-align:center;
+	
 	font-family:arial;
-	
-}
-
-#bgchanger{
-	
-	
-	
-}
-
-#bar{
-	
-	position:absolute;
-	
-	
-}
-
-#bar:active{
-	
-	position:absolute;
-	color:yellow;
-	min-width:100px;
-	height:1000px;
-	background-color:purple;
 	
 }
 
