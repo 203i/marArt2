@@ -1,21 +1,42 @@
 body{
-	
+		
 	background-image:url("mara.jpg");
 		background-attachment:fixed;
 	background-size:cover;	
 		overflow : hidden;
-	font-family:arial;
-	
+	font-family:astroarmada;
+		
 }
 #rbody{
 	
 	width: 50% ;
 		height: 100% ;
 	overflow : scroll ;
+	font-family:nasalization-rg;
 		
 }
 #rbody::-webkit-scrollbar{ /*hide scrolbar in rbody div */
 	
 	display : none ; 
 	
+}
+
+
+
+
+/* FONTS  */
+
+@font-face /* tekst */													/* -is anybody here ? */
+{
+
+font-family: nasalization-rg; 										/* -... */
+	src:url(nasalization-rg.ttf);
+
+}
+@font-face /* titles  */									/* i dont think so...-  */
+{
+
+font-family: astroarmada;												/* -...  */
+	src:url(astroarmada.ttf);											/* ...-  */
+
 }
