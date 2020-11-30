@@ -1,23 +1,21 @@
 body{
 	
 	background-image:url("mara.jpg");
+		background-attachment:fixed;
 	background-size:cover;	
-	
+		overflow : hidden;
 	font-family:arial;
 	
 }
-
-.img{
-
-	position:absolute;
-	width :200px;
-	height:200px;
+#rbody{
 	
-	float:left;
+	width: 50% ;
+		height: 100% ;
+	overflow : scroll ;
+		
 }
-.img:hover{
+#rbody::-webkit-scrollbar{ /*hide scrolbar in rbody div */
 	
-	transition:  .6s ;
-	transform: scale(1.2);
+	display : none ; 
 	
 }
