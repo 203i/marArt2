@@ -9,18 +9,74 @@ body{
 }
 #navbar{
 	
+		
+	left:2px;
 		z-index:2;
 	background-color:white;
 		top:0;
 	width:100%;
 		position:fixed;
-	
-	
+	margin-right:auto;
+		height:8%;
 	
 }
-#img{
+h1{ 
+
+	float:left;
+
+}
+#navbar table{
+		
+		float:right;
+	padding-top:20px;
 	
+}
+#navbar tr { border:black solid 4px; }
+#navbar tr th{
+	border:black solid 4px;
+	position:relative;
+	text-align:center;
+	font-size:30px;
+	float:left;
+	padding-top:38px;
+	bottom:22px;	
+		
+}
+#home:hover {
 	
+	background-color: rgba(90, 18, 42, 1);
+		border:rgba(90, 18, 42, 1) solid 4px;
+		
+}
+#dev:hover {
+	
+	background-color: rgba(90, 18, 42, 1);
+		color:#21b3d2; 
+	border:rgba(90, 18, 42, 1) solid 4px;
+	
+}
+#pro:hover {
+	
+	background-color: rgba(90, 18, 42, 1);
+		color:#21b3d2; 
+	border:rgba(90, 18, 42, 1) solid 4px;
+	
+}
+#about:hover {
+	
+	background-color: rgba(90, 18, 42, 1);
+		color:#21b3d2; 
+	border:rgba(90, 18, 42, 1) solid 4px;
+	
+}
+img{
+	
+	size:cover;
+		position:fixed;
+	right:0px;
+		top:0px;
+	pointer-events: none;
+		z-index:1;
 	
 	
 }
@@ -49,7 +105,15 @@ body{
 	display : none ; 
 	
 }
-
+#navtab a{
+	
+	color:black;
+			
+}
+#navtab th:hover a{
+	
+	color:#21b3d2; 
+}
 a{
 	color:yellow;
 	text-decoration:none;
