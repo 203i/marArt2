@@ -20,7 +20,7 @@ body{
 		height:8%;
 	
 }
-h1{ 
+#navbar h1{ 
 
 	float:left;
 
@@ -95,6 +95,11 @@ img{
 		color:#21b3d2;
 	
 }
+#rbody h1{
+	
+	color:yellow;
+	
+}
 #iframe{
 	
 	text-align:center;
@@ -136,3 +141,7 @@ font-family: astroarmada;												/* -...  */
 	src:url(astroarmada.ttf);											/* ...-  */
 
 }
+
+
+/* n.html */
+
