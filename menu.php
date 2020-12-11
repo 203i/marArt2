@@ -64,7 +64,7 @@
 					</th>
 				
 					<th id="about">
-						<a href="menu.php" >ABOUT</a>
+						<a href="About.html" >ABOUT</a>
 					</th>
 				</tr>
 			</table>
