@@ -14,26 +14,7 @@
 		
 		
 		
-		<script language = "JavaScript" > 
-		
-		function startTime() {
-			var today = new Date();
-				var h = today.getHours();
-					var m = today.getMinutes();
-						var s = today.getSeconds();
-			m = addzero(m);
-			s = addzero(s);
-				document.getElementById("time").innerHTML = h + ":" + m + ":" +s;
-			var t = setTimeout(startTime,500);
-		}
-		
-		function addzero(i){
-		
-			if (i<10) {i = "0"+i};
-				return i ; 
-			}
-		
-		</script>
+		<script type="text/javascript" src="js.js"></script>
 		
 		
 	</head>
@@ -84,16 +65,22 @@
 			
 			<p>
 			
-				<h1 > >About : </h1>
+				<h1 > >My programs and stuff : </h1>
 				
-				>  <br>
-				>	<br>
-				>	 <br>
-				>	  <br>
-				>	 <br>
-				> 	<br>
-				> 	
+					<button onclick="move();">press</button>
+					
+				<div id="animation1">
 				
+				</div>		
+				<br><br><br><br><br><br><br>
+				
+					<button >ssss</button>
+					
+				<div id="animation2">
+				
+				</div>	
+				<br><br><br><br><br><br><br>
+					
 				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 				
 			</p>
