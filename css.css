@@ -145,19 +145,11 @@ font-family: astroarmada;												/* -...  */
 
 /* n.html */
 
-#animation1{
+.animation{
 					position:absolute;
 				background-image:url("xmas.jpg");	
-					width:100px;
-				height:100px;
+					width:200px;
+				height:200px;
 					color:red;
-				background-size:100px 100px;
-					background-attachment:fixed;
+				background-size:200px 200px;
 			}
-#animation2{
-			background-image:url("xmasstuff.jpg");
-				width:100px;
-			height:100px;
-				background-size:100px 100px;
-			
-}
